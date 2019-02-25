@@ -1,10 +1,11 @@
-input_array = 0
-
-def every_other(input_array)
-  49.times do
-    input_array = input_array + 2
-    p input_array
+def every_other
+  i = 1
+  every_other = []
+  50.times do
+    every_other << i
+    i = i + 2
   end
+  p every_other
 end
 
-every_other(1)
+every_other
