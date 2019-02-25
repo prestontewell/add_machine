@@ -1,4 +1,3 @@
-
 input_array = 0
 
 def every_other(input_array)
