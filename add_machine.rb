@@ -1,10 +1,11 @@
-input_array= 0
-
-def adding_machine(input_array)
+def adding_machine
+  i = 0
+  numbers = []
   100.times do
-    input_array = input_array + 1
-    p input_array
+    i += 1
+    numbers << i
   end
+  p numbers
 end
 
-adding_machine(0)
+adding_machine
