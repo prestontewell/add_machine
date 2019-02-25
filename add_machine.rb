@@ -7,7 +7,7 @@ def adding_machine(input_array)
   end
 end
 
-p adding_machine(0)
+adding_machine(0)
 
 
 # a = 0
