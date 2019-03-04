@@ -7,5 +7,3 @@ def adding_machine
   end
   p numbers
 end
-
-adding_machine
