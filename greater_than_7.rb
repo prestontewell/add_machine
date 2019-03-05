@@ -20,7 +20,6 @@ def greater_than_7(input_array)
   input_array.each do |i|
     if i > 7
       greater_than << i
-      i+= 1
     end
     return greater_than
   end
